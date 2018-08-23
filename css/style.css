@@ -47,7 +47,6 @@ background-color: rgba(14, 216, 214, 0.75);
 }
 
 nav button:focus {
-
 outline: none;
 border: 3px solid #09858B;
 }
@@ -56,6 +55,7 @@ border: 3px solid #09858B;
 
 
 /* Main headres styles */
+
 
 #main-header {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
@@ -90,8 +90,107 @@ border: 3px solid #09858B;
 }
 
 #main-header .header-caption .read-more:hover {
-	background-color: #fff;
+background-color: #fff;
 color: #09858B;
 }
 
+.btn:focus
+{outline: none;
+box-shadow:none;}
+    
+
+
 /* Main headres styles - END*/
+
+
+section {
+	padding: 60px 0;
+}
+
+section .section-header {
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+section .section-header .section-title {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+section .section-header .section-caption {
+	font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+section h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.img-circle {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.social-link {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	line-height: 40px;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 50%;
+	font-size: 1.8em;
+	color: #fff;
+	transition: all .3s;
+	margin: 5px;
+	text-align: center;
+}
+
+.social-link:hover {
+	background-color: #0ed8d6;
+	border: 1px solid #0ed8d6;
+	color: #fff;
+}
+
+#about-me ul {
+	list-style-type: none;
+    text-align: justify;
+ }
+
+#about-me ul li
+{
+    padding-bottom: 5px;
+}
+
+
+
+/* Section Experience */
+
+#experience .fas {
+	font-size: 2.8em;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border: 1px solid #0ed8d6;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #0ed8d6;
+	transition: all .3s;
+}
+
+#experience .fas:hover {
+	color: #0ed8d6;
+	background-color: #fff;
+	transform: rotate(360deg);
+}
+
+
+/* Section experience - END */
